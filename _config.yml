@@ -1,0 +1,22 @@
+title: Your awesome title
+lang: en
+description: Write an awesome description for your new site here
+
+remote_theme: rundocs/jekyll-rtd-theme
+
+readme_index:
+  with_frontmatter: true
+
+exclude:
+  - Makefile
+  - Gemfile
+  - Gemfile.lock
+
+plugins:
+  - jemoji
+  - jekyll-avatar
+  - jekyll-mentions
+
+#https://docs.github.com/en/enterprise/2.13/user/articles/repository-metadata-on-github-pages
+#github entriprise에서는 meta 정보를 못찾아온다 
+repository: test/test
